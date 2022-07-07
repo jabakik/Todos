@@ -35,3 +35,5 @@ class ToDoAdapter : RecyclerView.Adapter<TodoViewHolder>(){
 class TodoViewHolder(val doBind: ToDoActivityBinding):RecyclerView.ViewHolder(doBind.root)
 
 data class ToDo(val jobTitle: String,)
+// აქ ერთი ცვლადი შეგეძლო დაგემატებინა
+// var isComplete და ამის მიხედვით მიგეცა  ფერი

@@ -11,7 +11,7 @@ class SecondActivity: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding1 = ToDoActivityBinding.inflate(layoutInflater)
         setContentView(binding1.root)
-
+        //ეს აარასწორადაა MainActivity ში უნდა გექნა ჩაგიგდებ ამ დავაალების სრულ ვერსიას
         binding1.ToDoJob.setOnClickListener {
             binding1.True.visibility = View.VISIBLE
         }
